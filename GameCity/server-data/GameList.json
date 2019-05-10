@@ -1,0 +1,25 @@
+ {
+    "games":[
+        {
+            "id":1,
+            "game_name":"Shooting  Rs105 ",
+            "balance":"600"
+        },{
+            "id":2,
+
+            "game_name":"Angry Birds Rs95 ",
+            "balance":"600"
+            },{
+            "id":3,
+            "game_name":"Temple Run Rs200 ",
+            "balance":"600"
+        },{
+            "id":4,
+            "game_name":"Bike Race Rs90 ",
+            "balance":"600"
+        },{
+           "id":5,
+           "game_name":  "Air Control Rs800 ",
+           "balance":"600" }
+    ]
+}

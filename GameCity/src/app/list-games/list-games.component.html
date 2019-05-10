@@ -1,0 +1,19 @@
+<!-- list component is created -->
+
+<p>
+  Welcome to Game City! Your Card Balance Amount is Rs600
+  
+</p>
+<div class="table-responsive table-container table-striped" class="table table-success">
+  <table class="table">
+   
+    <tbody>
+      <tr *ngFor="let gem of games">
+        <td class="hidden">{{gem.id}}</td>
+        <td>{{gem.game_name}}</td>
+        <td>{{gem.game_balance}}</td>
+      <td> <button (click)="PlayNow(gem)" class="btn btn-info"> PlayNow</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
